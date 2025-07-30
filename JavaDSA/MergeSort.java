@@ -53,6 +53,6 @@ public class MergeSort
             arr[a]=merge[a-left];
         }
 
-        int bc=5;
+       // int bc=5;
     }
 }
