@@ -46,9 +46,13 @@ public class MergeSort
         {
             merge[k++]=arr[j++];
         }
+
+        // This is the trickiest Part
         for(int a=0;i<=high;a++)
         {
             arr[a]=merge[a-left];
         }
+
+        int bc=5;
     }
 }
